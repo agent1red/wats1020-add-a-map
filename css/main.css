@@ -2,13 +2,26 @@
    Kevin Hudson 3020 
    ========================================================================== */
 
-#map-container { height: 180px; }
-
-#description, #history, #stats {
-	font-size: 18px;
-	
+#map-container {
+	height: 480px;
+	overflow: hidden;
+	margin: 50px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 20px;
+	z-index: 1;
 }
- #description h2,#history h2, #stats h2{
+
+
+}
+#description,
+#history,
+#stats {
+	font-size: 18px;
+}
+#description h2,
+#history h2,
+#stats h2 {
 	font-size: 60px;
 }
 dt {
@@ -16,54 +29,44 @@ dt {
 	text-decoration: underline;
 	padding-bottom: 8px;
 }
-dd{
-		padding-bottom: 12px;
+dd {
+	padding-bottom: 12px;
 }
 .nav-tabs li a {
 	padding: 20px;
 	font-size: 18px;
+	border: 3px solid #dfd7ca;
+	cursor: default;
+}
+body,
+.jumbotron {
+	background: #000000;
+	/* fallback for old browsers */
 	
-	  
-    border: 3px solid #dfd7ca;
-  
-    cursor: default;
+	background: -webkit-linear-gradient(to left, #000000, #434343);
+	/* Chrome 10-25, Safari 5.1-6 */
+	
+	background: linear-gradient(to left, #000000, #434343);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+	color: #FFFFFF;
 }
-body, .jumbotron{
-
-
-background: #000000; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #000000 , #434343); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #000000 , #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: #FFFFFF;      
+h1#home {
+	text-align: center;
 }
-
-h1#home  {
-  text-align: center;
-  
-}
-
-
-
-
 .carousel-inner img {
-    width: 100%;
+	width: 100%;
 }
-
 .carousel-caption {
-   
-    position: absolute;
-    background: #99be00;
-    background: rgba(204, 255, 0, 0.7);
-    padding: 5px;
-    right: 0;
-    bottom: 0;
-    color: #000;
-    left: 0;
-    text-align: center;
-    font: normal 20px Arial, sans-serif;
+	position: absolute;
+	background: #99be00;
+	background: rgba(204, 255, 0, 0.7);
+	padding: 5px;
+	right: 0;
+	bottom: 0;
+	color: #000;
+	left: 0;
+	text-align: center;
+	font: normal 20px Arial, sans-serif;
 }
-
-#stats h2 {
-  
-  
-}
+#stats h2 {}
