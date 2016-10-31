@@ -19,6 +19,8 @@
 #stats {
 	font-size: 18px;
 }
+
+#map h2,
 #description h2,
 #history h2,
 #stats h2 {
@@ -54,9 +56,15 @@ body,
 h1#home {
 	text-align: center;
 }
-.carousel-inner img {
-	width: 100%;
+.carousel-inner {
+	border-radius: 20px;
 }
+.carousel-inner  img {
+width: 100%; margin: 0 auto;
+	max-height: 700px;
+	border-radius: 20px;		
+}
+
 .carousel-caption {
 	position: absolute;
 	background: #99be00;
@@ -69,4 +77,9 @@ h1#home {
 	text-align: center;
 	font: normal 20px Arial, sans-serif;
 }
-#stats h2 {}
+.container blockquote {
+	font-style: oblique;
+	font-weight: lighter;
+	font-family: Brush Script MT, cursive;
+	font-size: 34px;
+}
