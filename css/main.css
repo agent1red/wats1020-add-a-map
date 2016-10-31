@@ -12,6 +12,9 @@
 	z-index: 1;
 }
 
+.navbar-header a {
+	font-size: 18px;
+}
 
 }
 #description,
@@ -20,6 +23,7 @@
 	font-size: 18px;
 }
 
+#links h2,
 #map h2,
 #description h2,
 #history h2,
@@ -63,6 +67,7 @@ h1#home {
 width: 100%; margin: 0 auto;
 	max-height: 700px;
 	border-radius: 20px;		
+	object-fit: contain;
 }
 
 .carousel-caption {
